@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Age Calculator</title>
+  <link rel="stylesheet" href="calculator.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Welcome to the Age Calculator</h1>
+      <p>This Calculator helps you calculate your age based on your date of birth.</p>
+    </header>
+    <main>
+      <section class="links">
+        <h2>Useful Links</h2>
+        <ul>
+          <li><a href="https://www.timeanddate.com/" target="_blank">Time and Date</a></li>
+          <li><a href="https://www.worldtimebuddy.com/" target="_blank">World Time Buddy</a></li>
+          <li><a href="https://www.calendarlabs.com/" target="_blank">Calendar Labs</a></li>
+        </ul>
+      </section>
+      <section class="calculator">
+        <h2>Calculate Your Age</h2>
+        <form id="age-form">
+          <label for="dob">Date of Birth:</label>
+          <input type="date" id="dob">
+          <button type="submit">Calculate Age</button>
+        </form>
+        <p id="result"></p>
+      </section>
+    </main>
+    <footer>
+      <p>Today's Date: <span id="today-date"></span></p>
+      <p>Created by: UKWITEGETSE Valens</p>
+      <p>Email: ukwitegetsev9@gmail.com</p>
+    </footer>
+  </div>
+  <script src="calculator.js"></script>
+</body>
+</html>
